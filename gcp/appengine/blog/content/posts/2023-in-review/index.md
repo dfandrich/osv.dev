@@ -47,7 +47,7 @@ Since OSV-Scanner's launch [one year ago](https://security.googleblog.com/2022/1
 several significant new features. 
 
 * [Reachability analysis](https://google.github.io/osv-scanner/experimental/#scanning-with-call-analysis) to reduce false positives
-  * [GoVulnCheck] integration to enable reachability analysis of Go vulnerabilities
+  * [Govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck) integration to enable reachability analysis of Go vulnerabilities
   * Experimental Rust call analysis to enable reachability analysis of Rust vulnerabilities
 * Comprehensive [C/C++ vulnerability management support](https://osv.dev/blog/posts/introducing-broad-c-c++-support/)
   * Git submodule scanning
